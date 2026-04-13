@@ -1,3 +1,11 @@
+/**
+ * @file   src\pages\home\index.jsx
+ * @author Ewerton
+ * @date   2026-04-13
+ * @desc   [Descrição do componente ou arquivo]
+ */
+
+
 import { Link } from "react-router";
 
 import styles from './index.module.css';
@@ -12,13 +20,15 @@ function Home() {
                 <Link to="/exemplo/1">Exemplo 1 - Componente básico</Link>
                 <Link to="/exemplo/2">Exemplo 2 - Uso de estilização com module</Link>
                 <Link to="/exemplo/3">Exemplo 3 - State</Link>
+                <Link to="/exemplo/4">Exemplo 4 - Componentes</Link>
 
             </div>
             <div className={styles.containerItens}>
                 <h2>Atividades</h2>
 
                 <Link to="/atividade/1">Atividade 1 - Uso CSS</Link>
-                <Link to="/atividade/2">Atividade 1 - Uso State</Link>
+                <Link to="/atividade/2">Atividade 2 - Uso State</Link>
+                <Link to="/correcao/2">Correção 2 - Uso State</Link>
             </div>
         </div>
     )

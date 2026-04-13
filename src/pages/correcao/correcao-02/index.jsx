@@ -1,8 +1,15 @@
+/**
+ * @file   src\pages\exemplos\ex-03\index.jsx
+ * @author Ewerton
+ * @date   2026-04-13
+ * @desc   [Descrição do componente ou arquivo]
+ */
+
 import { useState } from "react";
 
 import styles from './index.module.css';
 
-export default function Atividade02() {
+export default function Correcao02() {
 
     const [num, setNum] = useState(100);
 
@@ -15,27 +22,25 @@ export default function Atividade02() {
     }
 
     return (
-        <div className={styles.container}> 
-        <h1>Atividade 2</h1>
-        <p>Contardor incrementando e decrementando com uso de useState do React</p>
-        <br /><br /><br />
-            <div className={styles.containerOperacoes}>
-                <div className={styles.containerLabel}>
+        <div className={styles.container}>
+            <div className={styles.containerBotoes}>
+                <div>
                     <label
                         onClick={() => handleDecrementa()}
                         className={styles.botao}
                     >-1</label>
                 </div>
-                <div className={styles.containerLabel}>
-                    <label className={styles.texto}>{`Contador: ${num}`}</label>
+                <div>
+                <label className={styles.texto}>{`Contador: ${num}`}</label>
                 </div>
-                <div className={styles.containerLabel}>
+                <div>
                     <label
                         onClick={() => handleIncrementa()}
                         className={styles.botao}
                     >+1</label>
                 </div>
             </div>
+
         </div>
     );
 }

@@ -1,9 +1,45 @@
+/*
+ * @file   src\pages\exemplos\ex-02\index.module.css
+ * @author Ewerton
+ * @date   2026-04-13
+ * @desc   [Descrição da folha de estilos]
+ */
+
 .container {
     display: flex;
-    flex: 1;
     flex-direction: column;
-    align-items: center;
-    border: 5px solid #0000ff; 
-    /* width: 100%;  */
-    max-width: 1440px;
+    border: 3px solid #00f;
+    max-width: 1240px;
+}
+
+.brancoBranco {
+    display: flex; 
+    /* border: 1px solid #dc0;  */
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+}
+
+.brancoCinza {
+    display: flex; 
+    /* border: 1px solid #dc0;  */
+    width: 50px;
+    height: 50px;
+    background-color: #fafafa;
+}
+
+.pretoPreto {
+    display: flex; 
+    /* border: 1px solid #dc0;  */
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+}
+
+.pretoCinza {
+    display: flex; 
+    /* border: 1px solid #dc0;  */
+    width: 50px;
+    height: 50px;
+    background-color: #212121;
 }

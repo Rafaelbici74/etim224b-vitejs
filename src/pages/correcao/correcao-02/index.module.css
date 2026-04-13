@@ -12,6 +12,12 @@
     height: 96vh;
 }
 
+.containerBotoes {
+    display: flex; 
+    justify-content: space-evenly; 
+    width: 40rem; 
+}
+
 .texto {
     font-size: 3.5rem;
     margin: 2rem 0;
