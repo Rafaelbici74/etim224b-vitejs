@@ -1,3 +1,10 @@
+/**
+ * @file   src\pages\atividades\atv-10\index.jsx
+ * @author Ewerton
+ * @date   2026-04-14
+ * @desc   [Descrição do componente ou arquivo]
+ */
+
 /*
     - Lógica do validate: O value === watchSenha é uma forma elegante de comparar campos 
       (como senha e confirmação) sem precisar criar funções complexas fora do formulário.

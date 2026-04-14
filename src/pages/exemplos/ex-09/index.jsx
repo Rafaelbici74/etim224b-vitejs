@@ -1,3 +1,10 @@
+/**
+ * @file   src\pages\exemplos\ex-09\index.jsx
+ * @author Ewerton
+ * @date   2026-04-14
+ * @desc   [Descrição do componente ou arquivo]
+ */
+
 export default function Exemplo09() {
     return (
         <div style={{ maxWidth: '100%' }}>

@@ -1,3 +1,10 @@
+/**
+ * @file   src\pages\exemplos\ex-13\index.jsx
+ * @author Ewerton
+ * @date   2026-04-14
+ * @desc   [Descrição do componente ou arquivo]
+ */
+
 /*
     Por que validar?
         Antes do código, é importante entender que a validação acontece em dois momentos:

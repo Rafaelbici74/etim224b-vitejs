@@ -1,3 +1,10 @@
+/**
+ * @file   src\pages\atividades\atv-08\index.jsx
+ * @author Ewerton
+ * @date   2026-04-14
+ * @desc   [Descrição do componente ou arquivo]
+ */
+
 /*
     - onChange (Tempo Real): Bom para validações simples (ex: "tem @?"). Ruim para validações complexas ou de banco de dados, 
     pois pode ser irritante mostrar erro enquanto a pessoa ainda está digitando o primeiro caractere.

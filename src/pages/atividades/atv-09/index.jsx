@@ -1,3 +1,10 @@
+/**
+ * @file   src\pages\atividades\atv-09\index.jsx
+ * @author Ewerton
+ * @date   2026-04-14
+ * @desc   [Descrição do componente ou arquivo]
+ */
+
 /*
     - O uso do watch: O watch é preferível ao useState dentro do React Hook Form porque ele evita renderizações 
     desnecessárias em outros componentes da página, focando apenas no que é necessário para o formulário.

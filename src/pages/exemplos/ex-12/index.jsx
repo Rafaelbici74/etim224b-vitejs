@@ -1,3 +1,10 @@
+/**
+ * @file   src\pages\exemplos\ex-12\index.jsx
+ * @author Ewerton
+ * @date   2026-04-14
+ * @desc   [Descrição do componente ou arquivo]
+ */
+
 import { useState, useEffect } from 'react';
 
 import styles from './index.module.css';

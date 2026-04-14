@@ -1,3 +1,10 @@
+/**
+ * @file   src\pages\atividades\atv-10\arquivoAluno.jsx
+ * @author Ewerton
+ * @date   2026-04-14
+ * @desc   [Descrição do componente ou arquivo]
+ */
+
 /*
     Desafio Final: Sistema de Cadastro de Instrutor
     Cenário: Você foi contratado para criar a página de cadastro de novos professores da instituição. O formulário deve ser robusto e não permitir envios com dados incorretos.

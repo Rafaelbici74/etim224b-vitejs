@@ -13,7 +13,7 @@ import styles from './index.module.css';
 function Home() {
     return (
         <div className={styles.container}>
-            <h1>Aula React com VITE JS</h1>            
+            <h1>Aula React com VITE JS</h1>
             <div className={styles.containerItens}>
                 <h2>Exemplos</h2>
 
@@ -23,12 +23,20 @@ function Home() {
                 <Link to="/exemplo/4">Exemplo 4 - Componentes</Link>
 
             </div>
-            <div className={styles.containerItens}>
-                <h2>Atividades</h2>
+            <div className={styles.coluna}>
+                <div className={styles.containerItens}>
+                    <h2>Atividades</h2>
 
-                <Link to="/atividade/1">Atividade 1 - Uso CSS</Link>
-                <Link to="/atividade/2">Atividade 2 - Uso State</Link>
-                <Link to="/correcao/2">Correção 2 - Uso State</Link>
+                    <Link to="/atividade/1">Atividade 1 - Uso CSS</Link>
+                    <Link to="/atividade/2">Atividade 2 - Uso State</Link>
+
+                                        
+                </div>
+                <div className={styles.containerItens}>
+                    <h2>Correções</h2>
+                    
+                    <Link to="/correcao/2">Correção 2 - Uso State</Link>
+                </div>
             </div>
         </div>
     )

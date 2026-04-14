@@ -1,3 +1,10 @@
+/**
+ * @file   src\pages\exemplos\ex-10\index.jsx
+ * @author Ewerton
+ * @date   2026-04-14
+ * @desc   [Descrição do componente ou arquivo]
+ */
+
 /*
     Inserção(Escrita): Utilizamos um objeto form no estado.A função handleChange captura cada tecla digitada ou mudança 
     de opção e atualiza o estado em tempo real(Controlled Components).Ao clicar no button, esses dados são empurrados 

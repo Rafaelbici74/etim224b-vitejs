@@ -1,3 +1,10 @@
+/**
+ * @file   src\pages\atividades\atv-05\index.jsx
+ * @author Ewerton
+ * @date   2026-04-14
+ * @desc   [Descrição do componente ou arquivo]
+ */
+
 import { useState } from 'react';  
 import { Pencil, Trash2, Plus, Save } from 'lucide-react';
 

@@ -1,3 +1,10 @@
+/**
+ * @file   src\pages\exemplos\ex-05\index.jsx
+ * @author Ewerton
+ * @date   2026-04-14
+ * @desc   [Descrição do componente ou arquivo]
+ */
+
 import { useState } from 'react';
 
 export default function Exemplo05() {

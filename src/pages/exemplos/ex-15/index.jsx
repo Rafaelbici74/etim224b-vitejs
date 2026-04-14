@@ -1,3 +1,10 @@
+/**
+ * @file   src\pages\exemplos\ex-15\index.jsx
+ * @author Ewerton
+ * @date   2026-04-14
+ * @desc   [Descrição do componente ou arquivo]
+ */
+
 /*
     O Padrão de Mercado (React Hook Form)
     npm install react-hook-form

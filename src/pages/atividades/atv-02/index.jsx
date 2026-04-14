@@ -1,3 +1,10 @@
+/**
+ * @file   src\pages\atividades\atv-02\index.jsx
+ * @author Ewerton
+ * @date   2026-04-14
+ * @desc   [Descrição do componente ou arquivo]
+ */
+
 import { useState } from "react";
 
 import styles from './index.module.css';
