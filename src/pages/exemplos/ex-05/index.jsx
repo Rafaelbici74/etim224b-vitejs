@@ -7,7 +7,12 @@
 
 import { useState } from 'react';
 
+import styles from './index.module.css';
+
 export default function Exemplo05() {
+    // exemplo básico entrada de dados
+    // const [nome, setNome] = useState('');
+    // exemplo uso real
     const [formData, setFormData] = useState({ nome: '', email: '' });
 
     const handleSubmit = (e) => {
@@ -17,15 +22,30 @@ export default function Exemplo05() {
     };
 
     return (
-        <form onSubmit={handleSubmit} style={{ maxWidth: '400px' }}>
-            <label htmlFor="user">Nome do Usuário:</label>
-            <input
+        <div className={styles.container}>
+
+            <h1>Exemplo 5 - Formulário</h1>
+
+            <form onSubmit={handleSubmit} className={styles.formulario}>
+                <label htmlFor="user">Nome do Usuário:</label>
+                {/* exemplo básico entrada de dados */}
+                {/* <input
                 id="user"
-                type="text"
-                value={formData.nome}
-                onChange={(e) => setFormData({ ...formData, nome: e.target.value })}
-            />
-            <button type="submit">Enviar Cadastro</button>
-        </form>
+                type="text" 
+                placeholder='Insira seu nome aqui'
+                value={nome}                     
+                onChange={ e => setNome(e.target.value) }           
+            /> */}
+                {/* exemplo uso real */}
+                <input
+                    id="user"
+                    type="text"
+                    placeholder='Insira seu nome aqui'
+                    value={formData.nome}
+                    onChange={(e) => setFormData({ ...formData, nome: e.target.value })}
+                />
+                <button type="submit">Enviar Cadastro</button>
+            </form>
+        </div>
     );
 }
