@@ -31,12 +31,12 @@ function Home() {
                     <Link to="/atividade/1">Atividade 1 - Uso CSS</Link>
                     <Link to="/atividade/2">Atividade 2 - Uso State</Link>
                     <Link to="/atividade/3">Atividade 3 - Componentes</Link>
+                    <Link to="/atividade/4">Atividade 4 - Formulário</Link>
 
-                                        
                 </div>
                 <div className={styles.containerItens}>
                     <h2>Correções</h2>
-                    
+
                     <Link to="/correcao/2">Correção 2 - Uso State</Link>
                 </div>
             </div>

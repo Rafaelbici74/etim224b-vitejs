@@ -1,5 +1,3 @@
-'use client'
-
 import { useState, useEffect } from 'react';
 import styles from './page.module.css';
 
@@ -48,9 +46,9 @@ export default function Atividade04() {
         <div className={styles.container} data-theme={tema}>
             <header className={styles.header}>
                 <h1 className={styles.titulo}>Atividade 4 - Lista de compra</h1>
-                <button onClick={toggleTema} className={styles.btnTema}>
+                {/* <button onClick={toggleTema} className={styles.btnTema}>
                     {tema === 'light' ? '🌙 Modo Escuro' : '☀️ Modo Claro'}
-                </button>
+                </button> */}
             </header>
 
             <form className={styles.form} onSubmit={handleSubmit}>
@@ -77,10 +75,10 @@ export default function Atividade04() {
                 {dadosCadastrados.map((item) => (
                     <li key={item.id} className={styles.linha}>
                         <span className={styles.conteudo}>{item.quantidade}x {item.produto}</span>
-                        <div className={styles.acoes}>
+                        {/* <div className={styles.acoes}>
                             <button onClick={() => handleEditItem(item)}>Editar</button>
                             <button onClick={() => handleRemoveItem(item.id)}>Excluir</button>
-                        </div>
+                        </div> */}
                     </li>
                 ))}
             </ul>
