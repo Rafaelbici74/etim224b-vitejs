@@ -38,6 +38,7 @@ function Home() {
                     <h2>Correções</h2>
 
                     <Link to="/correcao/2">Correção 2 - Uso State</Link>
+                    <Link to="/temp">Temp</Link>
                 </div>
             </div>
         </div>

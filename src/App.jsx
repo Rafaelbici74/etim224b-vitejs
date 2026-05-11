@@ -22,6 +22,7 @@ import Atividade03 from './pages/atividades/atv-03';
 import Atividade04 from './pages/atividades/atv-04/page';
 
 import Correcao02 from './pages/correcao/correcao-02';
+import Temp from '../src/pages/temp';
 
 function App() {
 
@@ -42,6 +43,7 @@ function App() {
     <Route path="/atividade/4" element={<Atividade04 />} />
     
     <Route path="/correcao/2" element={<Correcao02 />} />
+    <Route path="/temp" element={<Temp />} />
 
   </Routes>
   )
