@@ -19,6 +19,8 @@ export default function Exemplo06() {
     const [equipe, setEquipe] = useState({
         nome: '',
         corPrimaria: '#000000',
+        temReserva: 'nao',
+        corSecundaria: '#ffffff',
         email: '',
         categoria: '',
     });
@@ -32,9 +34,14 @@ export default function Exemplo06() {
         setEquipe(prev => ({ ...prev, [name]: value }));
     };
 
-    const handleExibeValor = () => {
-        console.log('Dados registrados');
-        
+    const handleExibeValor = (event) => {
+        event.preventDefault(); // 1. Impede a recarga da página
+        const formData = new FormData(event.target); // 2. Coleta os dados
+        const data = Object.fromEntries(formData);
+        console.log('Dados registrados via form');
+        console.log(data);
+        console.log('Dados registrados via state');
+        console.log(equipe);
     }
 
     return (
@@ -42,7 +49,7 @@ export default function Exemplo06() {
             <div className={styles.card}>
                 <p className={styles.brand}>Sistema de Torneios</p>
 
-                <div>
+                <form onSubmit={handleExibeValor}>
                     <h2 className={styles.title}><UserPlus size={28} /> Cadastro de Equipe</h2>
 
                     <div className={styles.field}>
@@ -71,11 +78,10 @@ export default function Exemplo06() {
                         </select>
                     </div>
 
-                    <button onClick={() => handleExibeValor()} className={styles.btnNext}>
-                        Próximo: Integrantes <ArrowRight size={18} />
+                    <button type="submit" className={styles.btnNext}>
+                        Exibir dados <ArrowRight size={18} />
                     </button>
-
-                </div>
+                </form>
             </div>
         </div>
     );
