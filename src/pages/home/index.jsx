@@ -22,6 +22,7 @@ function Home() {
                 <Link to="/exemplo/3">Exemplo 3 - State</Link>
                 <Link to="/exemplo/4">Exemplo 4 - Componentes</Link>
                 <Link to="/exemplo/5">Exemplo 5 - Formulário</Link>
+                <Link to="/exemplo/6">Exemplo 6 - Formulário etapas</Link>
 
             </div>
             <div className={styles.coluna}>
