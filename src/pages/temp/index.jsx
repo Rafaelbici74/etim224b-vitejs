@@ -60,9 +60,53 @@ export default function Exemplo06() {
                     <div className={styles.row}>
                         <div className={styles.field}>
                             <label className={styles.label}>Cor Principal</label>
-                            <input name="corPrimaria" type="color" className={styles.color} value={equipe.corPrimaria} onChange={handleEquipeChange} />
+                            <input
+                                name="corPrimaria"
+                                type="color"
+                                className={styles.color}
+                                value={equipe.corPrimaria}
+                                onChange={handleEquipeChange}
+                            />
                         </div>
 
+                        <div className={styles.field}>
+                            <label className={styles.label}>Uniforme reserva?</label>
+                            <div className={styles.radioGroup}>
+                                <label className={styles.radioOption}>
+                                    <input
+                                        type="radio"
+                                        name="temReserva"
+                                        value="sim"
+                                        checked={equipe.temReserva === 'sim'}
+                                        onChange={handleEquipeChange}
+                                    />
+                                    <span>Sim</span>
+                                </label>
+                                <label className={styles.radioOption}>
+                                    <input
+                                        type="radio"
+                                        name="temReserva"
+                                        value="nao"
+                                        checked={equipe.temReserva === 'nao'}
+                                        onChange={handleEquipeChange}
+                                    />
+                                    <span>Não</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        {equipe.temReserva === 'sim' && (
+                            <div className={styles.field}>
+                                <label className={styles.label}>Cor Secundária</label>
+                                <input
+                                    name="corSecundaria"
+                                    type="color"
+                                    className={styles.color}
+                                    value={equipe.corSecundaria}
+                                    onChange={handleEquipeChange}
+                                />
+                            </div>
+                        )}
                     </div>
 
                     <div className={styles.field}>

@@ -76,3 +76,26 @@
     cursor: pointer;
     border-radius: 8px;
 }
+
+.radioGroup {
+    display: flex;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.radioOption {
+    display: flex;
+    align-items: center;
+    /* Alinha o círculo com o texto verticalmente */
+    gap: 8px;
+    /* Espaço entre o círculo e a palavra Sim/Não */
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.radioOption input {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
